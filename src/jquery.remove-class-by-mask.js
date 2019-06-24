@@ -2,7 +2,7 @@
     /**
      * Remove class by mask
      *
-     * @param {string} mask Mask (regular expression)
+     * @param {string} mask Mask with '*' symbols
      *
      * @return {jQuery}
      *

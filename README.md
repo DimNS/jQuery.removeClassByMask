@@ -16,7 +16,7 @@ npm i jquery-remove-class-by-mask
 ```
 
 ## removeClassByMask(mask)
-- `mask` *(string)* **required** - JavaScript regular expression string
+- `mask` *(string)* **required** - Mask with `*` symbols, symbol `*` changes to `\S+` regular expression
 
 ## Usage
 ```javascript
@@ -27,4 +27,7 @@ elem.addClass('bg-success bg-danger text-white text-center');
 
 // text-white text-center
 elem.removeClassByMask('bg-*');
+
+// text-center
+elem.removeClassByMask('*-white');
 ```
