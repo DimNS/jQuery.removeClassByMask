@@ -1,0 +1,19 @@
+{
+  "name": "jquery-remove-class-by-mask",
+  "description": "jQuery plugin for remove class by mask",
+  "version": "1.0.0",
+  "homepage": "https://github.com/DimNS/jQuery.removeClassByMask",
+  "author": "DimNS <dimns@dimns.ru>",
+  "keywords": [
+    "remove class",
+    "remove class by mask",
+    "jquery.remove-class-by-mask",
+    "jQuery.removeClassByMask"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4"
+  }
+}
